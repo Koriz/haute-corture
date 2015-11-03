@@ -1,0 +1,42 @@
+/*
+    Color Palette
+    --
+    Pimary Color: (blueish)#7D8AB7
+    Secondary color: (dark grey)#554F53
+    Accent Color: (grey)#807675
+
+    Typograaphy
+    --
+    Headlines: font-family: 'Gravitas One', cursive;
+    Body Copy: font-family: 'PT Serif', serif;
+
+    Backgrounds:
+    --
+    http://subtlepatterns.com/confectionary/
+*/
+
+/*Global*/
+body {
+    background: url("../img/confectionary.png")
+}
+
+/*Typography*/
+h1,
+h2 {
+    font-family: 'Gravitas One', cursive;
+    color: #554F53;
+    letter-spacing: 3px;
+}
+
+p, blockquote {
+    font-family: 'PT Serif', serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #807675;
+}
+
+blockquote {
+    font-size: 2em;
+    padding: 4em;
+    text-align: center;
+}
